@@ -1,0 +1,29 @@
+[
+  {
+    "id": "abff4f99-af2e-44e1-8096-97cccc77c053",
+    "account_name": "Nurudeen Adewale",
+    "account_number": "0795808710",
+    "phone": "09089567432",
+    "balance": 1050000,
+    "createdAt": "1660236908",
+    "updatedAt": "1660244827"
+  },
+  {
+    "id": "5ad00bec-0a35-462f-82d5-2528a7b4df93",
+    "account_name": "Nurudeen Adewale",
+    "account_number": "3959146856",
+    "phone": "09089567432",
+    "balance": 0,
+    "createdAt": "1660244834",
+    "updatedAt": "1660244834"
+  },
+  {
+    "id": "bc69d517-6e40-4c9a-b2af-a70dbd61659d",
+    "account_name": "Nurudeen Adewale",
+    "account_number": "3448043045",
+    "phone": "09089567432",
+    "balance": 0,
+    "createdAt": "1660245475",
+    "updatedAt": "1660245475"
+  }
+]

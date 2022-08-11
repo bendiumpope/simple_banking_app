@@ -1,9 +1,56 @@
 [
   {
-    "id": "2923a30f-af2f-4925-9f18-20f1dd6bd8ed",
+    "id": "b05504fb-6e84-45ae-be9b-9ecd5c62e8b1",
+    "transaction_type": "credit",
+    "account_name": "Nurudeen Adewale",
+    "account_number": "0795808710",
+    "amount": 400000,
+    "createdAt": "1660244718",
+    "updatedAt": "1660244718"
+  },
+  {
+    "id": "7ea3884e-71e3-4c30-966c-394008ff70e6",
+    "transaction_type": "credit",
+    "account_name": "Nurudeen Adewale",
+    "account_number": "0795808710",
+    "amount": 400000,
+    "createdAt": "1660244801",
+    "updatedAt": "1660244801"
+  },
+  {
+    "id": "d4ccc65c-7de4-49f9-bdf0-d4d7c3dd586d",
+    "transaction_type": "credit",
+    "account_name": "Nurudeen Adewale",
+    "account_number": "0795808710",
+    "amount": 400000,
+    "createdAt": "1660244803",
+    "updatedAt": "1660244803"
+  },
+  {
+    "id": "2fd52be0-9312-44c6-b16c-3f994a1343ae",
     "transaction_type": "debit",
-    "amountWithdrawn": 20000,
-    "createdAt": "1660235125",
-    "updatedAt": "1660235125"
+    "account_name": "Nurudeen Adewale",
+    "account_number": "0795808710",
+    "amount": 100000,
+    "createdAt": "1660244804",
+    "updatedAt": "1660244804"
+  },
+  {
+    "id": "94345c7f-0358-49a3-bb2c-47a1c8f8783c",
+    "transaction_type": "debit",
+    "account_name": "Nurudeen Adewale",
+    "account_number": "0795808710",
+    "amount": 90000,
+    "createdAt": "1660244814",
+    "updatedAt": "1660244814"
+  },
+  {
+    "id": "ab4daa59-2d14-4692-bd2b-85fa82be3707",
+    "transaction_type": "debit",
+    "account_name": "Nurudeen Adewale",
+    "account_number": "0795808710",
+    "amount": 60000,
+    "createdAt": "1660244827",
+    "updatedAt": "1660244827"
   }
 ]

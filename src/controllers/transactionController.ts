@@ -45,14 +45,12 @@ const deposit = async (req: Request, res: Response, next: NextFunction) => {
       return account;
     });
 
-
-
     const transaction_details = {
       id: uuidv4(),
       transaction_type: 'credit',
       account_name: userAccount.account_name,
       account_number: userAccount.account_number,
-      amount_deposited: amount,
+      amount: amount,
       createdAt: Math.floor(date.getTime() / 1000).toFixed(0),
       updatedAt: Math.floor(date.getTime() / 1000).toFixed(0),
     };
@@ -76,7 +74,6 @@ const deposit = async (req: Request, res: Response, next: NextFunction) => {
       },
     });
   } catch (error) {
-    console.log('deposit ==== ', error);
     return next(new HttpError(`An Error Occured`, 500));
   }
 };
@@ -106,9 +103,9 @@ const withdrawal = async (req: Request, res: Response, next: NextFunction) => {
     const transaction_details = {
       id: uuidv4(),
       transaction_type: 'debit',
-      accountName: user_account.account_name,
-      accountNumber: user_account.account_number,
-      amountWithdrawn: amount,
+      account_name: user_account.account_name,
+      account_number: user_account.account_number,
+      amount: amount,
       createdAt: Math.floor(date.getTime() / 1000).toFixed(0),
       updatedAt: Math.floor(date.getTime() / 1000).toFixed(0),
     };
@@ -144,7 +141,6 @@ const withdrawal = async (req: Request, res: Response, next: NextFunction) => {
       },
     });
   } catch (error) {
-    console.log('withdrawal ==== ', error);
     return next(new HttpError(`An Error Occured`, 500));
   }
 };
@@ -157,6 +153,8 @@ const getTransactions = async (
 
   try {
     const { account_number, transaction_type } = req.query;
+
+    console.log(account_number, transaction_type);
 
     let transactions = await getTransactionsHandler();
     
