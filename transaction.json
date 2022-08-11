@@ -1,0 +1,9 @@
+[
+  {
+    "id": "2923a30f-af2f-4925-9f18-20f1dd6bd8ed",
+    "transaction_type": "debit",
+    "amountWithdrawn": 20000,
+    "createdAt": "1660235125",
+    "updatedAt": "1660235125"
+  }
+]

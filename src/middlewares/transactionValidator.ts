@@ -27,7 +27,7 @@ export const transactionValidator = (
   }
 
   if (account_number.length != 10) {
-    return next(new HttpError('account number must 10 digits', 400));
+    return next(new HttpError('account number must be 10 digits', 400));
   }
 
   if (typeof amount != 'number') {
