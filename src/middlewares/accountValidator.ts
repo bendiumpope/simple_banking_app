@@ -1,5 +1,4 @@
 import { Request, Response, NextFunction } from 'express';
-import { string } from 'joi';
 import HttpError from '../utils/errorHandler/http-error';
 
 export const createAccountValidator = (

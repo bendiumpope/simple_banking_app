@@ -1,13 +1,15 @@
-FROM node:14
+FROM node:14-alpine
+
+EXPOSE 4000
 
 WORKDIR /app
 
 COPY package*.json ./
 
-RUN yarn
+RUN npm i
 
-COPY . . 
- 
-EXPOSE 4000
+COPY . .
 
-CMD [ "yarn", "dev"]
+RUN yarn tsc
+
+CMD [ "npm", "start" ]
