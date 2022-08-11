@@ -67,3 +67,12 @@ Do you have experience in any enterprise software architecture?
 **  Return only what the client needs from every request to an endpoint;
 
 ```
+
+###### Do you have experience in any enterprise software architecture?
+
+```
+Yes I do have experience with designing High Performance, Consistent scalable and secured system>
+
+I have extensive knowledge of Monolithic architetural design and I also have a good understanding of MicroSerrvice architeture. 
+
+```
