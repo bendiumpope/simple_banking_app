@@ -1,4 +1,4 @@
-# API endpoint that returns the number of stars for a given Github repository
+# Simple Banking Application. That allow users create accounts, make deposits  and withdrawal transactions.
 
 #### Requirements:
 
